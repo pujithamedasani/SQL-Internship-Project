@@ -9,3 +9,10 @@ VALUES (1, 1, 1);
 -- At First , it marks a seat as booked (is_booked = TRUE). 
 -- Then, it inserts a new record into the Bookings table, linking a customer, flight, and seat together.
 
+Output:
+
++------------+-------------+-----------+---------+---------------------+-----------+
+| booking_id | customer_id | flight_id | seat_id | booking_time        | status    |
++------------+-------------+-----------+---------+---------------------+-----------+
+|          1 |           1 |         1 |       1 | 2025-07-15 19:19:46 | confirmed |
++------------+-------------+-----------+---------+---------------------+-----------+
