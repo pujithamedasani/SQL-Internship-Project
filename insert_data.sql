@@ -5,8 +5,8 @@ INSERT INTO Flights (flight_number, origin, destination, departure_time, arrival
 
 -- Customers Table
 INSERT INTO Customers (full_name, email, phone) VALUES 
-('Saachi', 'saachi.12@gmail.com', '7708702844'),
-('Adharv', 'adharv@gmail.com', '8631378676');
+('Saachi', 'saachi.12@gmail.com', '+91 7708702844'),
+('Adharv', 'adharv@gmail.com', '+91 8631378676');
 
 -- Seats Table
 INSERT INTO Seats (flight_id, seat_number) VALUES 
