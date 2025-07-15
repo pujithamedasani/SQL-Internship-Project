@@ -43,3 +43,9 @@ CREATE TABLE Bookings (
   FOREIGN KEY (flight_id) REFERENCES Flights(flight_id),
   FOREIGN KEY (seat_id) REFERENCES Seats(seat_id)
 );
+
+-- All foreign keys are defined.
+
+-- Seats ensures seat uniqueness per flight.
+
+-- Bookings connects customers, seats, and flights.
