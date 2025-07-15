@@ -1,3 +1,4 @@
+-- Search Flights
 -- To search flights between the departure timing and arrival timings from that specific origin and destinaion
 
 SELECT * FROM Flights
