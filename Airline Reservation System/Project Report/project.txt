@@ -1,0 +1,45 @@
+Project Report
+
+Project Title: Airline Reservation System 
+Internship : SQL Developer Intern at ELEVATE LABS
+Internship Trainee : Pujitha Medasani
+Report Submission Date: July 25,2025
+
+Introduction
+A SQL-based project called the Airline Reservation System was created to mimic the essential features of an actual airline booking platform. Using a normalised relational database, the system offers structured flight data management, customer service, seat reservations, and booking operations.
+Abstract
+The goal of this project is to use MySQL Workbench to model the key functions of an airline reservation system. The system is made to manage flights, clients, seats, and reservations in an orderly and scalable manner. The project implements data constraints, booking logic via triggers, and queries to manage seat availability, booking confirmation, and cancellations efficiently.
+Tools Used 
+•	MySQL Workbench is the interface 
+•	the database is MySQL 8.x and MySQL Compiler. 
+•	Platform: Windows 11 
+•	Language: SQL (DDL, DML, Triggers, Views) 
+•	DB Designer is an optional tool for schema visualisation. 
+
+
+
+Steps Involved in Building the Project:
+1.	Database design 
+•	Creation of tables for flights, customers, seats, and bookings 
+•	Application of Normalisation (1NF to 3NF) 
+•	Foreign keys created between tables that are related 
+
+2.	Insertion of Sample Data 
+
+•	Added customer information, seat assignments for each flight, and sample flight records 
+•	Added realistic sample data for flights, customers, and seats 
+
+3.	Query Implementation 
+
+•	View available seats for each flight 
+•	Search flights by date and route 
+•	Verify reservations and mark seats as reserved 
+
+4.	Creation of Triggers 
+
+•	When a reservation is made, the seat status is automatically updated to "booked." 
+•	When cancelled, the previously reserved seat becomes available.
+
+Conclusion
+The Airline Reservation System effectively illustrates how to use a structured SQL database to manage reservations and flight operations. The system guarantees accurate and effective management of airline data through the use of normalisation, constraints, triggers, and queries. This project can be expanded in the future to include features like payments, user authentication, and a web interface. It also acts as a scalable model for actual booking systems.
+
