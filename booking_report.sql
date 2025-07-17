@@ -22,7 +22,7 @@ Output:
 +------------+-----------+---------------+----------+--------------------------+-------------+-----------+---------------------+
 | booking_id | full_name | flight_number | origin   | destination              | seat_number | status    | booking_time        |
 +------------+-----------+---------------+----------+--------------------------+-------------+-----------+---------------------+
-|          1 | Saachi P  | AI101         | New York | London                   | 1A          | confirmed | 2025-07-17 18:13:35 |
-|          2 | Adharv M  | AI202         | London   | Paris                    | 1B          | confirmed | 2025-07-17 18:13:35 |
-|          3 | Anvi R    | AI203         | India    | United States of America | 2A          | confirmed | 2025-07-17 18:13:35 |
+|          1 | Saachi P  | AI101         | New York | London                   | 1A          | confirmed | 2025-07-17 18:17:29 |
+|          2 | Adharv M  | AI202         | London   | Paris                    | 1B          | confirmed | 2025-07-17 18:17:29 |
+|          3 | Anvi R    | AI202         | India    | United States of America | 2A          | confirmed | 2025-07-17 18:17:29 |
 +------------+-----------+---------------+----------+--------------------------+-------------+-----------+---------------------+
